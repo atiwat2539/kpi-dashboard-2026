@@ -98,6 +98,12 @@ export default function App() {
   const [isAddUserOpen, setIsAddUserOpen] = useState(false);
   const [newUserForm, setNewUserForm] = useState({ name: '', startingCollection: '', startingSubTask: '', startingKPI: '', startingUnit: 'ครั้ง' });
 
+    useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://cdn.tailwindcss.com";
+    document.head.appendChild(script);
+  }, []);
+
   // โหลดข้อมูลเมื่อเปิดเว็บ
   useEffect(() => {
     const fetchDB = async () => {
