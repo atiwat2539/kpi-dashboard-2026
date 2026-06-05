@@ -846,7 +846,7 @@ export default function App() {
           </div>
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-              <h3 className="font-black text-slate-800 mb-5 flex items-center"><span className="w-2 h-5 bg-indigo-500 rounded-full mr-2"></span>ลงบันทึกนัดหมาย</h3>
+              <h3 className="font-black text-slate-800 mb-5 flex items-center"><span className="w-2 h-5 bg-indigo-500 rounded-full mr-2"></span>เพิ่มกิจกรรม / ประชุม</h3>
               <form onSubmit={handleAddEvent} className="space-y-4">
                 <div className="grid grid-cols-2 gap-3">
                   <div><label className="block text-[10px] font-bold text-slate-400 uppercase mb-1.5">วันที่</label><input type="date" required className="w-full p-2.5 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none text-xs font-semibold" value={newEvent.date} onChange={e => setNewEvent({...newEvent, date: e.target.value})} /></div>
