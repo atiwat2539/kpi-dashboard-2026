@@ -958,7 +958,7 @@ export default function App() {
 
       <aside className="w-full md:w-64 bg-gradient-to-b from-slate-950 to-indigo-950 text-white flex flex-col shadow-2xl z-10 flex-shrink-0">
         <div className="p-6 border-b border-slate-800/60">
-          <h1 className="text-2.5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 flex items-center"><PieChart className="mr-2 text-indigo-400" size={26} /> KPI SmartTrack</h1>
+          <h1 className="text-2.5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 flex items-center"><PieChart className="mr-2 text-indigo-400" size={26} /> KPI Dashboard</h1>
         </div>
         <nav className="flex-1 p-4 space-y-2">
           {['overview', 'individual', 'entry', 'calendar'].map(tab => (
