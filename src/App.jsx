@@ -713,7 +713,7 @@ export default function App() {
                 <optgroup key={col} label={col} className="font-extrabold text-indigo-700">
                   {ts.map(t => (
                     <option key={t.id} value={t.id} className="text-slate-700 font-medium">
-                      {String(t.subTask || '').substring(0,60)}...
+                      {String(t.subTask || '').substring(0,100)}...
                     </option>
                   ))}
                 </optgroup>
